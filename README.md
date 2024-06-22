@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project is a simple RESTful API for managing a list of books. It is built using Next.js, Node.js, and Express. The API supports CRUD operations, allowing users to create, retrieve, update, and delete books. Swagger is integrated for API documentation.
+This project is a simple RESTful API for managing a list of books. It is built using Node.js, and Express. The API supports CRUD operations, allowing users to create, retrieve, update, and delete books. Swagger is integrated for API documentation.
 
 ## Setup Instructions
 
@@ -29,10 +29,6 @@ This project is a simple RESTful API for managing a list of books. It is built u
    node server.js
    ```
 
-4. Start Next.js development server (in another terminal):
-   ```bash
-   npm run dev
-   ```
 
 ### Accessing the API
 
