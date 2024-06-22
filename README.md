@@ -1,4 +1,3 @@
-```markdown
 # Book API
 
 ## Project Description
