@@ -15,8 +15,8 @@ This project is a simple RESTful API for managing a list of books. It is built u
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/book-api.git
-   cd book-api
+   git clone https://github.com/your-username/book-api-node.git
+   cd book-api-node
    ```
 
 2. Install dependencies:
@@ -24,7 +24,12 @@ This project is a simple RESTful API for managing a list of books. It is built u
    npm install
    ```
 
-3. Start the server:
+3. Create a `.env` file in the project root and add the following environment variables:
+   ```env
+   PORT=3000
+   ```
+
+4. Start the server:
    ```bash
    node server.js
    ```

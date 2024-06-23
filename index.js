@@ -4,7 +4,7 @@ import bookRoutes from './routes/bookRoutes.js';
 import swaggerDocs from './swagger.js';
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3001;
 
 app.use(express.json());
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
