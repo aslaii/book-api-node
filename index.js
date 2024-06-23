@@ -2,6 +2,9 @@ import express from 'express';
 import swaggerUi from 'swagger-ui-express';
 import bookRoutes from './routes/bookRoutes.js';
 import swaggerDocs from './swagger.js';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 3001;
